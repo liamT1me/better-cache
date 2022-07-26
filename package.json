@@ -1,6 +1,6 @@
 {
   "name": "better-cache.js",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "更友好的浏览器缓存插件",
   "author": "liam",
   "scripts": {
@@ -15,12 +15,13 @@
     "type": "git",
     "url": "git@github.com:liamT1me/better-cache.git"
   },
-  "main": "./dist/my-lib.umd.js",
-  "module": "./dist/my-lib.es.js",
+  "homepage": "https://github.com/liamT1me/better-cache#readme",
+  "main": "./dist/better-cache.umd.js",
+  "module": "./dist/better-cache.es.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.es.js",
-      "require": "./dist/my-lib.umd.js"
+      "import": "./dist/better-cache.es.js",
+      "require": "./dist/better-cache.umd.js"
     }
   },
   "keywords": [

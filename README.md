@@ -6,15 +6,15 @@
 
 
 ```
-$ npm install better-cache
+$ npm install better-cache.js
 ```
 or
 ```
-$ yarn add better-cache
+$ yarn add better-cache.js
 ```
 or
 ```
-$ pnpm install better-cache
+$ pnpm install better-cache.js
 ```
 
 
