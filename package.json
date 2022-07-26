@@ -1,6 +1,8 @@
 {
-  "name": "better-cache",
-  "version": "0.0.1",
+  "name": "better-cache.js",
+  "version": "0.0.2",
+  "description": "更友好的浏览器缓存插件",
+  "author": "liam",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,6 +11,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liamT1me/better-cache.git"
+  },
   "main": "./dist/my-lib.umd.js",
   "module": "./dist/my-lib.es.js",
   "exports": {
@@ -17,6 +23,14 @@
       "require": "./dist/my-lib.umd.js"
     }
   },
+  "keywords": [
+    "localStorage",
+    "sessionStorage",
+    "vue",
+    "local",
+    "session",
+    "cache"
+  ],
   "dependencies": {
     "crypto-js": "^4.1.1"
   },
